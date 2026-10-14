@@ -1,0 +1,18 @@
+site_name: 我的文档站点
+site_description: 通过 GitHub Actions 自动构建并部署到 GitHub Pages 的 MkDocs 文档
+site_author: xsfyd4
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.top
+
+nav:
+  - 首页: index.md
+  - 使用指南: guide.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
